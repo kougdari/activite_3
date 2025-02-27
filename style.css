@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ada3a3e6;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin: 20px;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.country {
+    width: 300px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.country img {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}
+
